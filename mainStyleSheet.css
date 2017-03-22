@@ -1,38 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
-#group1 {
-	width: 100%;
-
-}
-
-
 #topBox {
 	clear: left;
 	height: 100px;
-	width: 400px;
-
+	width: 102%;
+	padding: 10px;
+	margin: -8px;
+	background-color: wheat;
 }
 
 
 
 #leftBox {
 	float: left;
-	height: 500px;
-	width: 30%;
-	
+	height: 800px;
+	width: 60%;
+	border: solid thick green;
+	margin: 2%;
 }
 
-#centerBox {
-	float: right;
-	height: 500px;
-	width: 30%;
-
-}
 
 #rightBox {
-	float: right;
-	height: 500px;
+	float: left;
+	height: 800px;
 	width: 30%;
-	clear: both;
+	border: solid thick green;
+	margin-top: 2%;
+	margin-right: 1%;
+	margin-left: 1%;
 }
